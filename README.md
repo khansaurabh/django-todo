@@ -32,7 +32,7 @@ $ python3 manage.py createsuperuser
 That was pretty simple, right? Now let's make the App live. We just need to start the server now and then we can start using our simple todo App. Start the server by following command
 
 ```bash
-$ python3 manage.py runserver 0.0.0.0:80
+$ nohup python3 manage.py runserver 0.0.0.0:80 &
 ```
 
 Once the server is hosted, head over to http://0.0.0.0:80/todos for the App.
